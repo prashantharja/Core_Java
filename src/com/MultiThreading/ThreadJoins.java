@@ -7,7 +7,7 @@ public class ThreadJoins {
 		Thread worker = new Thread(() -> {
 			try {
 				System.out.println("Worker: I am cooking pasta (3 sec)...");
-				Thread.sleep(3000); // 1. PAUSE
+				Thread.sleep(5000); // 1. PAUSE
 				System.out.println("Worker: Pasta is ready!");
 			} catch (InterruptedException e) {
 				e.printStackTrace();

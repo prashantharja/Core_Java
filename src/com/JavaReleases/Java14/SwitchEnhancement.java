@@ -6,7 +6,7 @@ public class SwitchEnhancement {
 
 		// Before Java 14
 
-		int dayOfWeek = 7;
+		int dayOfWeek = 2;
 
 		switch (dayOfWeek) {
 		case 1:
